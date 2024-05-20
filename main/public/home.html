@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webservice</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/splide@4.1.4/dist/css/splide.min.css">
+  <style>
+    .splide__slide img {
+      width: 100%;
+      height: auto;
+    }
+
+    header {
+      background-color: #333;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    header nav {
+      float: right;
+      margin-right: 20px;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    header nav ul li {
+      float: left;
+      margin-right: 20px;
+    }
+
+    header nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    header nav ul li a:hover {
+      background-color: #111;
+    }
+
+    main {
+      padding: 80px 20px 20px 20px; /* Adjusted for fixed navbar */
+    }
+
+    main h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    main h2 {
+      font-size: 1.5em;
+      margin-top: 40px;
+      color: #333;
+    }
+
+    main p {
+      color: #666;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="leave.html">Application</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to the GPTC Pala Computer Engineering Department Website</h1>
+    <h2>Website Services</h2>
+    <ul>
+      <li>Leave application</li>
+      <li>Notification</li>
+      <li>CGPA CALCULATOR</li>
+
+    </ul>
+
+    <div id="image-carousel" class="splide" aria-label="Beautiful Images">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="images/bgindex.jpeg" alt="Image 1">
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 GPTC Pala Computer Engineering Department</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      new Splide('#image-carousel', {
+        type: '',
+        perPage: 1,
+        autoplay: true,
+        arrows: false, // Disable navigation arrows
+      }).mount();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* CSS for main.css */
+
+/* Center the container vertically and horizontally */
+html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style for the button container */
+  .button-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Style for the button */
+  .btn {
+    padding: 10px 25px;
+    font-size: 1.4rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url('images/GPTCPALA.jpeg'); /* Assuming the image is located in the 'images' folder within your project directory */
+    background-size: cover;
+    background-position: center;
+  }
+  /* CSS for main.css */
+  
+  /* Center the container vertically and horizontally */
+  html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style for the button container */
+  .button-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Style for the button */
+  .btn {
+    padding: 10px 25px;
+    font-size: 1.4rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url('images/GPTCPALA.jpeg'); /* Assuming the image is located in the 'images' folder within your project directory */
+    background-size: cover;
+    background-position: center;
+  }
+  /* CSS for main.css */
+  
+  /* Center the container vertically and horizontally */
+  html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style for the button container */
+  .button-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Style for the button */
+  .btn {
+    padding: 10px 25px;
+    font-size: 1.4rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url('C:\Users\alber\Desktop\projects\hell\main\images\GPTCPALA.jpeg'); /* Assuming the image is located in the 'images' folder within your project directory */
+    background-size: cover;
+    background-position: center;
+  }
+  /* CSS for main.css */
+  
+  /* Center the container vertically and horizontally */
+  html,body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style for the button container */
+  .button-container {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Style for the button */
+  .btn {
+    padding: 10px 25px;
+    font-size: 1.4rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for the button */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Background Image */
+  body {
+    background-image: url('images/GPTCPALA.jpeg'); /* Assuming the image is located in the 'images' folder within your project directory */
+    background-size: cover;
+    background-position: center;
+  }
+  

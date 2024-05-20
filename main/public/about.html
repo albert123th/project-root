@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .navbar a {
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+            background: #fff;
+            border: 1px solid #dbdbdb;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-top: 60px; /* Extra margin to account for the fixed navbar */
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="#about">About</a>
+        <!-- <a href="#services"></a> -->
+        <a href="Contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>Project: Leave Application System</h1>
+        <p>
+            The Leave Application System is a web-based solution designed to streamline the process of managing leave requests within educational institutions. The system allows students to submit their leave applications online, specifying details such as their name, registration number, leave type, HOD, start and end dates, and the reason for the leave. Upon submission, these details are stored in a Google Spreadsheet, and the data is easily accessible through a dynamic web interface that displays all applications in a structured table format. This project leverages Google Apps Script for backend processing, handling both data submissions (via doPost) and data retrieval (via doGet). In the future, this system can be enhanced with additional features such as automated email notifications for approvals and rejections, integration with institution calendars for better scheduling, and a more robust user authentication system to ensure secure access. The integration of machine learning algorithms could also be explored to predict leave trends and optimize resource allocation, further improving the efficiency and functionality of the system.
+        </p>
+    </div>
+
+</body>
+</html>

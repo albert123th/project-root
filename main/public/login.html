@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-right">
+      <a href="home.html">Home</a>
+      <a href="Contact.html">Contact</a>
+      </form>
+     
+    </div>
+    <div class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Login</h1>
+    <form action="/login" method="post" id="login-form">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+      </div>
+      <div class="log">
+      <button type="submit">Login</button>
+    </div>
+      <div class="message">
+        <p>Don't have an account? <a href="/register">Register</a></p>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("show-password").addEventListener("change", function() {
+      var passwordInput = document.getElementById("password");
+      if (this.checked) {
+        passwordInput.type = "text";
+      } else {
+        passwordInput.type = "password";
+      }
+    });
+
+    var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function(){
+      document.querySelector(".navbar").classList.toggle("active");
+    });
+  </script>
+</body>
+</html>

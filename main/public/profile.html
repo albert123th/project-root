@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <form action="/logout?_method=DELETE" method="post">
+            <button type="submit" style="background:none; border:none; color:inherit; cursor:pointer; padding:14px 20px; font-size: 17px;">Logout</button>
+        </form>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <div id="profile-page" class="sit">
+        <h1><span id="username">Continue</span></h1>
+            </div>
+        
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                fetch('/user-data')
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('username').textContent = data.name;
+                    });
+
+                var hamburger = document.querySelector(".hamburger");
+                hamburger.addEventListener("click", function(){
+                    document.querySelector(".navbar").classList.toggle("active");
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
